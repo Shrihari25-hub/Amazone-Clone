@@ -12,6 +12,7 @@
     margin-right: -8px;
     margin-top: -26px;
     display: flex;
+    justify-content: space-evenly;
    
 }
 
@@ -78,19 +79,51 @@
 }
 
 .input{
-    width: 600px;
+    width: 650px;
     height: 33.3px;
     margin-top: 16px;
     margin-bottom: 10px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border: none;
 }
 
+
 .search-icon{
-    margin-top: 16px;
-    margin-bottom: 11px;
-    background-color: yellow;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-top: 15.5px;
+    background-color: #febd68;
+    color: #0f1111;
     width: 39px;
-    height: 36px;
-    text-align: center;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+/** box 4 **/
+
+.nav-sign-in{
+    margin-top: 16px;
+}
+
+.nav-account{
+color: #ffffff;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 4px;
+}
+
+.nav-order{
+    font-weight: bold;
+    color: #ffffff;
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-sign-in:hover{
+    border: 1px solid white;
 }
