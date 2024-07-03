@@ -30,10 +30,6 @@
     margin-top:  5px;
 }
 
-.border:hover{
-    border: 1px solid white;
-}
-
 /** box 2**/
 .nav-add {
     margin-top: 15px;
@@ -58,6 +54,8 @@
 
 .nav-add:hover{
     border: 1px solid white;
+    padding-left: 3px;
+    padding-right: 4px;
 }
 
 /** box 3 **/
@@ -115,7 +113,7 @@ font-family: Arial, Helvetica, sans-serif;
 margin-left: 4px;
 }
 
-.nav-order{
+.nav-list{
     font-weight: bold;
     color: #ffffff;
     background: none;
@@ -146,7 +144,60 @@ margin-left: 4px;
 
 .nav-delivery:hover{
     border: 1px solid white;
-    padding-bottom: 38px;
+    padding-bottom: 42px;
     padding-left: 4px;
     padding-right: 4px;
 }
+
+/** box 6 **/
+.nav-cart{
+    display: flex;
+    margin: 22px;
+}
+
+.shopping-image{
+    font-size: 25px;
+}
+
+.nav-shop{
+    font-weight: bold;
+    font-size: 15px; 
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.nav-cart:hover{
+    border: 1px solid white;
+    padding-bottom: 35.5px;
+    padding-left: 4px;
+    padding-right: 3px;
+}
+
+/** Panel **/
+
+.panel{
+    background-color: #232F3E;
+    color: white;
+    display : flex;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list-image{
+    font-size: 1.1rem;
+}
+.panel-option{
+    display:inline-flex;
+    width:  91%;
+}
+
+.panel-option p{
+    margin-left:15px;
+}
+
+.list-image:hover{
+    border: 1px solid white;
+    padding: 5.5px;
+}
+
