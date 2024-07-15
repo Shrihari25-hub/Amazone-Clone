@@ -201,3 +201,31 @@ margin-left: 4px;
     padding: 5.5px;
 }
 
+/** hero section **/
+
+.hero-sec{
+    background-image: url("hero.jpg");
+    height: 325px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.message{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 200%;
+    margin-left: 20px;
+    margin-right: -80px;
+    margin-bottom: 25px;
+}
+
+.message a{
+    color: #007185;
+}
+
